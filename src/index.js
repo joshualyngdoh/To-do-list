@@ -32,15 +32,19 @@ const showAllTasks = () => {
   const todoList = document.querySelector('.todo-list');
   let tasks = '';
 
-  tasksList.forEach((task) => {
+  const sortByIndex = (arr) => arr.slice().sort((a, b) => a.index - b.index);
+
+  const sortedTasksList = sortByIndex(tasksList);
+
+  sortedTasksList.forEach((task) => {
     tasks += `<li class="todo-item">
-    <input type="checkbox" name="check" id="check">
-    <input type="text" name="task" id="task" value="${task.description}">
-    <i class="fa-solid fa-trash-can"></i>
-    </li>`;
+      <input type="checkbox" name="check" id="check">
+      <input type="text" name="task" id="task" value="${task.description}">
+      <i class="fa-solid fa-trash-can"></i>
+      </li>`;
   });
 
   todoList.innerHTML = tasks;
 };
 
-showAllTasks();
+window.addEventListener('load', showAllTasks);
