@@ -66,6 +66,7 @@
 > Describe between 1-3 key features of the application.
 
 - **[Highlights the use of Webpack]**
+- **[Implemented add and remove]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
