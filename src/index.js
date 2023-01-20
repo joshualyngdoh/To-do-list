@@ -55,8 +55,3 @@ btnClearCompleted.addEventListener('click', (e) => {
   tasksList = LocalStorage.getData();
   UI.showAllTasks(tasksList);
 });
-
-const reloadType = window.performance.getEntriesByType('navigation')[0].type;
-if (reloadType === 'reload') {
-  UI.reloadPage();
-}
