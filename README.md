@@ -15,7 +15,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -67,16 +66,7 @@
 
 - **[Highlights the use of Webpack]**
 - **[Implemented add and remove]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- **[Page is interactive]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -190,8 +180,7 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Implement Add or Remove]**
-- [ ] **[Make it interactive]**
+- [ ] **[Integrate back-end]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
