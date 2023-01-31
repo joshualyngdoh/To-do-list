@@ -75,7 +75,7 @@
 
 ## 🚀 Live Demo <a name="To-Do-List"></a>
 
-- [Live Demo Link](https://joshualyngdoh.github.io/To-do-list/)
+- [Live Demo Link](https://joshualyngdoh.github.io/To-do-list/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
